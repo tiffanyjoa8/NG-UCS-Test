@@ -1,0 +1,208 @@
+{
+    "company" : "Northrop Grumman",
+    "region" : "Southern California",
+    "sites": 
+    [
+        {
+            "location" : "El Segundo",
+            "projects":
+            [
+                {
+                    "name": "Airplane1",
+                    "startyear" : 2017,
+                    "endyear" : 2021,
+                    "components":
+                    [
+                        {
+                            "part":"wheels",
+                            "progress": 30
+                        },
+
+                        {   "part": "windows",
+                            "progress":50
+                        },
+                        {    "part":"oxygen masks",
+                             "progress":80
+                        }
+                    ]
+                },
+
+                {
+                    "name": "Car1",
+                    "startyear" : 2018,
+                    "endyear" : 2022,
+                    "avgeprogress" : 50,
+                    "components":
+                    [
+                        {
+                            "part":"wheels",
+                            "progress": 30
+                        },
+
+                        {   "part": "windows",
+                            "progress":50
+                        },
+                        {    "part":"airbag",
+                             "progress":80
+                        }
+                    ]
+                },
+                {
+                    "name": "Top Secret1",
+                    "startyear" : 2019,
+                    "endyear" : 2023,
+                    "avgeprogress" : 50,
+                    "components":
+                    [
+                        {
+                            "part":"item1",
+                            "progress": 30
+                        },
+
+                        {   "part": "item2",
+                            "progress":50
+                        },
+                        {    "part":"item3",
+                             "progress":80
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "location" : "Space Park",
+            "projects":
+            [
+                {
+                    "name": "Airplane2",
+                    "startyear" : 2017,
+                    "endyear" : 2021,
+                    "avgeprogress" : 50,
+                    "components":
+                    [
+                        {
+                            "part":"wheels",
+                            "progress": 30
+                        },
+
+                        {   "part": "windows",
+                            "progress":50
+                        },
+                        {    "part":"oxygen masks",
+                             "progress":80
+                        }
+                    ]
+                },
+
+                {
+                    "name": "Car2",
+                    "startyear" : 2018,
+                    "endyear" : 2022,
+                    "avgeprogress" : 50,
+                    "components":
+                    [
+                        {
+                            "part":"wheels",
+                            "progress": 30
+                        },
+
+                        {   "part": "windows",
+                            "progress":50
+                        },
+                        {    "part":"airbag",
+                             "progress":80
+                        }
+                    ]
+                },
+                {
+                    "name": "Top Secret2",
+                    "startyear" : 2019,
+                    "endyear" : 2023,
+                    "avgeprogress" : 50,
+                    "components":
+                    [
+                        {
+                            "part":"wheels",
+                            "progress": 30
+                        },
+
+                        {   "part": "windows",
+                            "progress":50
+                        },
+                        {    "part":"airbag",
+                             "progress":80
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location" : "Manhattan Beach",
+            "projects":
+            [
+                {
+                    "name": "Airplane3",
+                    "startyear" : 2017,
+                    "endyear" : 2021,
+                    "avgeprogress" : 50,
+                    "components":
+                    [
+                        {
+                            "part":"wheels",
+                            "progress": 30
+                        },
+
+                        {   "part": "windows",
+                            "progress":50
+                        },
+                        {    "part":"oxygen masks",
+                             "progress":80
+                        }
+                    ]
+                },
+
+                {
+                    "name": "Car3",
+                    "startyear" : 2018,
+                    "endyear" : 2022,
+                    "avgeprogress" : 50,
+                    "components":
+                    [
+                        {
+                            "part":"wheels",
+                            "progress": 30
+                        },
+
+                        {   "part": "windows",
+                            "progress":50
+                        },
+                        {    "part":"airbag",
+                             "progress":80
+                        }
+                    ]
+                },
+                {
+                    "name": "Top Secret3",
+                    "startyear" : 2019,
+                    "endyear" : 2023,
+                    "avgeprogress" : 50,
+                    "components":
+                    [
+                        {
+                            "part":"wheels",
+                            "progress": 30
+                        },
+
+                        {   "part": "windows",
+                            "progress":50
+                        },
+                        {    "part":"airbag",
+                             "progress":80
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
