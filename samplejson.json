@@ -10,9 +10,9 @@
             "name": "cluster",
             "children": 
             [
-                {"name": "AgglomerativeCluster", "value": 3938},
-                {"name": "CommunityStructure", "value": 3812},
-                {"name": "HierarchicalCluster", "value": 6714},
+                {"name": "AgglomerativeCluster", "value": 1938},
+                {"name": "CommunityStructure", "value": 1812},
+                {"name": "HierarchicalCluster", "value": 3714},
                 {"name": "MergeEdge", "value": 743}
             ]
         },
@@ -20,11 +20,11 @@
             "name": "graph",
             "children": 
             [
-                {"name": "BetweennessCentrality", "value": 3534},
-                {"name": "LinkDistance", "value": 5731},
-                {"name": "MaxFlowMinCut", "value": 7840},
-                {"name": "ShortestPaths", "value": 5914},
-                {"name": "SpanningTree", "value": 3416}
+                {"name": "BetweennessCentrality", "value": 1534},
+                {"name": "LinkDistance", "value": 1731},
+                {"name": "MaxFlowMinCut", "value": 1840},
+                {"name": "ShortestPaths", "value": 1914},
+                {"name": "SpanningTree", "value": 1416}
             ]
         },
         {
