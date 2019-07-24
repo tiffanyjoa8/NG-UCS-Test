@@ -22,7 +22,6 @@
             [
                 {"name": "BetweennessCentrality", "value": 34},
                 {"name": "LinkDistance", "value": 31},
-                {"name": "MaxFlowMinCut", "value": 40},
                 {"name": "ShortestPaths", "value": 14},
                 {"name": "SpanningTree", "value": 16}
             ]
@@ -47,15 +46,11 @@
             "children": 
             [
                 {"name": "ArrayInterpolator", "value": 83},
-                {"name": "ColorInterpolator", "value": 47},
-                {"name": "DateInterpolator", "value": 75},
                 {"name": "Interpolator", "value": 46},
                 {"name": "MatrixInterpolator", "value": 22}
             ]
         },
         {"name": "ISchedulable", "value": 10},
-        {"name": "Parallel", "value": 17},
-        {"name": "Pause", "value": 44},
         {"name": "Scheduler", "value": 55},
         {"name": "Sequence", "value": 55}
       ]
@@ -70,16 +65,10 @@
                 "children": 
                 [
                     {"name": "Converters", "value": 71},
-                    {"name": "DelimitedTextConverter", "value": 42},
-                    {"name": "GraphMLConverter", "value": 90},
-                    {"name": "IDataConverter", "value": 14},
                     {"name": "JSONConverter", "value": 20}
                 ]
             },
             {"name": "DataField", "value": 59},
-            {"name": "DataSchema", "value": 25},
-            {"name": "DataSet", "value": 6},
-            {"name": "DataSource", "value": 31},
             {"name": "DataTable", "value": 72},
             {"name": "DataUtil", "value": 22}
         ]
@@ -89,19 +78,12 @@
       "name": "Mission Systems",
       "children": [
        {"name": "AggregateExpression", "value": 16},
-       {"name": "And", "value": 27},
-       {"name": "ExpressionIterator", "value": 37},
-       {"name": "Literal", "value": 14},
-       {"name": "Match", "value": 38},
        {"name": "Maximum", "value": 43},
        {
         "name": "methods",
         "children": [
          {"name": "add", "value": 53},
          {"name": "and", "value": 30},
-         {"name": "update", "value": 37},
-         {"name": "variance", "value": 35},
-         {"name": "where", "value": 29},
          {"name": "xor", "value": 34},
          {"name": "_", "value": 24}
         ]
@@ -136,19 +118,6 @@
         ]
        },
        {"name": "Maths", "value": 5},
-       {"name": "Orientation", "value": 16},
-       {
-        "name": "palette",
-        "children": [
-         {"name": "ColorPalette", "value": 67},
-         {"name": "Palette", "value": 19},
-         {"name": "ShapePalette", "value": 29},
-         {"name": "SizePalette", "value": 91}
-        ]
-       },
-       {"name": "Property", "value": 59},
-       {"name": "Shapes", "value": 18},
-       {"name": "Sort", "value": 87},
        {"name": "Stats", "value": 67},
        {"name": "Strings", "value": 26}
       ]
@@ -156,7 +125,8 @@
 
      {
       "name": "Aerospace Systems",
-      "children": [
+      "children": 
+      [
        {
         "name": "axis",
         "children": [
@@ -219,48 +189,15 @@
            {"name": "FisheyeDistortion", "value": 34}
           ]
          },
-         {
-          "name": "encoder",
-          "children": [
-           {"name": "ColorEncoder", "value": 79},
-           {"name": "Encoder", "value": 40},
-           {"name": "PropertyEncoder", "value": 38},
-           {"name": "ShapeEncoder", "value": 1},
-           {"name": "SizeEncoder", "value": 10}
-          ]
-         },
-         {
-          "name": "filter",
+         {"name": "filter",
           "children": [
            {"name": "FisheyeTreeFilter", "value": 19},
            {"name": "GraphDistanceFilter", "value": 35},
            {"name": "VisibilityFilter", "value": 39}
           ]
-         },
-         {"name": "IOperator", "value": 86},
-         {
-          "name": "label",
-          "children": [
-           {"name": "Labeler", "value": 96},
-           {"name": "RadialLabeler", "value": 39},
-           {"name": "StackedAreaLabeler", "value": 32}
-          ]
-         },
-         {
-          "name": "layout",
-          "children": [
-           {"name": "AxisLayout", "value": 67},
-           {"name": "TreeMapLayout", "value": 91}
-          ]
-         },
-         {"name": "Operator", "value": 90},
-         {"name": "OperatorList", "value": 52},
-         {"name": "OperatorSequence", "value": 41},
-         {"name": "OperatorSwitch", "value": 21},
-         {"name": "SortOperator", "value": 23}
+         }
         ]
-       },
-       {"name": "Visualization", "value": 40}
+       }
       ]
      }
     ]
